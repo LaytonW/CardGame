@@ -296,7 +296,7 @@ public class GameBoard extends JPanel implements WindowListener {
 				++roundsPlayed;
 				repaint();
 				if (player.getMoney() == 0) {
-					JOptionPane.showMessageDialog(null, "All money lost, staring a new game :(");
+					JOptionPane.showMessageDialog(null, "All money lost, starting a new game :(");
 					newGame();
 				} else {
 					removeAll();
